@@ -1,0 +1,44 @@
+# Application
+
+Django
+psycopg2
+psycopg2-binary
+Pillow
+static3
+gunicorn
+dj-database-url
+dj-static
+python-decouple
+django-widget-tweaks
+django-extensions
+django-auditlog
+django-filter
+django-extra-fields
+django-storages
+boto3
+requests
+
+pytz
+
+# Django Rest Framework
+
+djangorestframework
+itsdangerous
+django-cors-headers
+
+# Django Admin
+https://github.com/darklow/django-suit/tarball/v2
+
+# Django Tests
+
+django-test-without-migrations
+ipython
+
+bs4
+git+https://github.com/devmmaia/pycorreios.git
+
+# DATATABLE
+-e git+https://github.com/cosmun-softwares/django-datatable.git#egg=django-datatable
+
+# PDF
+pdfkit
