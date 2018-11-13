@@ -15,4 +15,6 @@ WORKDIR /app/
 RUN pip install --upgrade pip
 RUN pip install --no-cache-dir -r requirements_dev.txt
 
+RUN export WKHTMLTOPDF_BIN=/usr/local/bin/wkhtmltopdf
+
 CMD ["/bin/bash", "-c", "while true; do sleep 10; done"]
